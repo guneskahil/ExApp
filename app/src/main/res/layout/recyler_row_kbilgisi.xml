@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="Kullanıcı Adı:"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:textColor="#0B0606"
+        android:id="@+id/rrkadi"></TextView>
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="Kullanıcı Maili:"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:textColor="#0B0606"
+        android:id="@+id/rrkmaili"></TextView>
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="Kullanıcı Şifresi:"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:textColor="#0B0606"
+        android:id="@+id/rrksifresi"></TextView>
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.pagefive"
+    tools:ignore="MissingClass">
+
+
+    <EditText
+        android:id="@+id/urunIsmiText"
+        android:layout_width="324dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Ürün Adını Giriniz"
+        android:inputType="textPersonName"
+        android:textColorHint="#0D0C0C"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/urunCesidText"
+        android:layout_width="324dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Ürün Çeşidini Giriniz"
+        android:inputType="textPersonName"
+        android:textColorHint="#050505"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/urunIsmiText" />
+
+    <EditText
+        android:id="@+id/dateTextView"
+        android:layout_width="324dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center|left"
+        android:hint="Son Kullanma Tarihi"
+        android:textColorHint="#1C1818"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/urunCesidText" />
+
+    <Button
+        android:id="@+id/buttonDate"
+        android:layout_width="72dp"
+        android:layout_height="55dp"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"
+        android:text="Seç"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/dateTextView"
+        app:layout_constraintEnd_toEndOf="@+id/urunCesidText"
+        app:layout_constraintTop_toTopOf="@+id/dateTextView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="324dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="Ürün Girişi"
+        android:textColor="#0B0909"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ekleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:onClick="ekleClick"
+        android:text="Ekle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dateTextView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

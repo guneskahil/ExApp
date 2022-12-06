@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/rrurunadi"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="6dp"
+        android:text="Ürün Adı:"
+        android:textColor="#0B0606"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/rrurunturu"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:text="Ürün Türü:"
+        android:textColor="#0B0606"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/rruruntarihi"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="6dp"
+        android:text="Son Kullanma Tarihi:"
+        android:textColor="#0B0606"
+        android:textSize="18sp">
+
+    </TextView>
+</LinearLayout>

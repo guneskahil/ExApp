@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "728603610827",
+    "project_id": "exapp-3b832",
+    "storage_bucket": "exapp-3b832.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728603610827:android:96d3bcb282d8fee9cb954e",
+        "android_client_info": {
+          "package_name": "com.gunes.exapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728603610827-c6843b277hspl2s0ql6qcce5p2vsru27.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNO3XsC8PoXGkBX3iKqoM_oEbr6Ja5-NY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "728603610827-c6843b277hspl2s0ql6qcce5p2vsru27.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

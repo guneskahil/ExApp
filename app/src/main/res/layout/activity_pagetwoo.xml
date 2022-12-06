@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.pagetwoo">
+
+    <Button
+        android:id="@+id/giriseDon"
+        android:layout_width="120dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:onClick="giriseDon"
+        android:text="Giriş Sayfasına Dön"
+        android:textColor="#080809"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/passwordtext"
+        app:layout_constraintTop_toBottomOf="@+id/passwordtext" />
+
+    <EditText
+        android:id="@+id/emailText"
+        android:layout_width="303dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittextarkaplan"
+        android:drawableLeft="@drawable/logo"
+        android:ems="10"
+        android:hint="Mail Adresinizi Giriniz"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="#0C0808"
+        android:textColorLink="#FF24369C"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="133dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/passwordtext"
+        android:layout_width="303dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittextarkaplan"
+        android:drawableLeft="@drawable/lock"
+        android:ems="10"
+        android:hint="Şifrenizi Giriniz"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="#0C0808"
+        android:textColorLink="#B491C4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kullainiciAdi" />
+
+    <EditText
+        android:id="@+id/kullainiciAdi"
+        android:layout_width="303dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittextarkaplan"
+        android:drawableLeft="@drawable/ic_baseline_drive_file_rename_outline_24"
+        android:ems="10"
+        android:hint="Kullanıcı Adınızı Giriniz"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="#0C0808"
+        android:textColorLink="#B491C4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailText" />
+
+    <Button
+        android:id="@+id/kayitOlButton"
+        android:layout_width="120dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:onClick="kayitOlClick"
+        android:text="Kayıt Ol"
+        android:textColor="#070709"
+        app:layout_constraintStart_toStartOf="@+id/passwordtext"
+        app:layout_constraintTop_toBottomOf="@+id/passwordtext" />
+</androidx.constraintlayout.widget.ConstraintLayout>
